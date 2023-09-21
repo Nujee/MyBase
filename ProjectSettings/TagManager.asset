@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - DisableRenderersOnStart
+  - DetachChildrenOnStart
+  - DisableSelfAndChildrenRenderersOnStart
+  - ScreenBaseIgnore
+  - UIBackgroundLayer
+  - UIWindowsLayer
+  - UIOverlayLayer
   layers:
   - Default
   - TransparentFX
